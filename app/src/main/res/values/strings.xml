@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">AWS</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Automated Segregation</string>
+    <string name="slide_1_desc">Segregation and sorting takes places under very unsafe and hazardous conditions and the effectiveness of segregation is reasonably low. This project will help industries to segregate the waste automatically without involving human labor. </string>
+
+    <string name="slide_2_title">3 Type of Segregation</string>
+    <string name="slide_2_desc">The purpose of this project is the realization of a compact, low cost and user-friendly segregation system for urban households and scrap shops to streamline the waste management process. This project can be used to segregate wet, metal and plastic waste materials. Through this app we can monitor the status of bin that what amount of bin is filled</string>
+
+    <string name="slide_3_title">Completely Sensor Based</string>
+    <string name="slide_3_desc">The object is placed on the conveyor, depending on the output of humidity sensor, moisture sensor and capacitive sensor the motor driver drives the motor. Accordingly motors based gates work and hence appropriate gate is opened and waste is collected on  respective bin</string>
+
+    <string name="slide_4_title">Automated Segregation</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="plastic">Plastic waste, or plastic pollution, is ‘the accumulation of plastic objects (e.g.: plastic bottles and much more) in the Earth’s environment that adversely affects wildlife, wildlife habitat, and humans.’ It also refers to the significant amount of plastic that isn’t recycled and ends up in landfill or, in the developing world, thrown into unregulated dump sites</string>
+    <string name="metal">Several kinds and also large amounts of metals are used in industrial processes every day. Since the industrial revolution period has taken place, our consumption levels skyrocketed due to the mass production of goods and the resulting low unit price.The most consumed metal worldwide is aluminum, followed by copper, zinc, lead and nickel. Moreover, some precious materials like gold are used for our computers and other electronic devices</string>
+    <string name="wet">WET WASTE is biodegradable waste and includes Cooked and uncooked food, fruits, vegetable peels, flower waste, and other organically decomposable waste. This waste is collected on a daily basis and can be handed over in a green bin.Processing technologies used to process wet waste: Composting and bio-methanation</string>
+    <string name="conveyor">This page shows us the status of Motors of conveyor belt that whether they are currently operating or at static position. Also we can controls its operation by either switching it on or off.</string>
+    <string name="conveyor_status">Turn Conveyor On</string>
+    <string name="conveyor_Status2">Turn Conveyor Off</string>
+
+
+
+</resources>

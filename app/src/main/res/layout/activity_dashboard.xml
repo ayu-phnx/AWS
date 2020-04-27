@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dip"
+    android:background="@color/colorPrimary">
+    <!-- Email Label -->
+    <RelativeLayout
+        android:background="@drawable/transparent_style"
+        android:id="@+id/contentArea"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        >
+
+
+    <ImageView
+        android:id="@+id/UserImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_account_box_black_24dp"/>
+    <!-- Email input text -->
+        <TextView
+            android:id="@+id/UserLog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Login"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:layout_below="@+id/UserImage"
+            android:layout_centerHorizontal="true"/>
+    <EditText
+
+
+        android:id="@+id/txtUsername"
+        android:background="@drawable/style"
+        android:layout_below="@+id/UserLog"
+        android:hint="UserName"
+        android:textColorHint="#ffffff"
+        android:textAlignment="center"
+        android:layout_width="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dip"/>
+
+    <!-- Password input text -->
+    <EditText
+        android:id="@+id/txtPassword"
+        android:inputType="numberPassword"
+        android:background="@drawable/style"
+        android:layout_below="@+id/txtUsername"
+        android:hint="Password"
+        android:textColorHint="#ffffff"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:layout_width="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dip"
+        android:password="true"
+        android:singleLine="true"/>
+
+    <!-- Login button -->
+    <Button android:id="@+id/btnLogin"
+        android:layout_below="@+id/txtPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_marginBottom="20dp"
+        android:text="Login"/>
+
+    </RelativeLayout>
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/contentArea"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+       android:layout_centerHorizontal="true"
+        android:cropToPadding="false"
+        android:src="@drawable/save_earth" />
+
+</RelativeLayout>
